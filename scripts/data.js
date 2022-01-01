@@ -46,7 +46,7 @@ let courses = {
 	
 
 	/* Mathematics */
-	'M206': new Course('Probability Theory', 'Probability (M1)', 'A'),
+	'M206': new Course('Probability Theory', 'Prob (M1)', 'A'),
 
 	/* Physics */
 	'P452': new Course('Computational Physics', 'Comp Phy (P107)', 'J'),
