@@ -37,7 +37,7 @@ let courses = {
 	/* Chemistry */
 	'C554': new Course('Crystallography', 'Crystal (C2)', 'D'),
 	'C402': new Course('Chemical Rate Processes', 'Kinetics (C6)', 'B'),
-	'C568': new Course('Advanced Fluorescence Spectroscopy', 'Fluoroscence (C6)', 'E'),
+	'C568': new Course('Advanced Fluorescence Spectroscopy', 'Fluoro (C6)', 'E'),
 
 	/* Computer Science */
 	
