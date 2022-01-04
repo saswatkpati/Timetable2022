@@ -52,8 +52,8 @@ let courses = {
 	'P452': new Course('Computational Physics', 'Comp Phy (P107)', 'J'),
 	'P456': new Course('Nonlinear Optics & Lasers', 'Laser (P127)', 'K'),
 	'P443': new Course ('Integrated Physics Lab I', 'Lab', 'G'),
-	'P443': new Course ('Integrated Physics Lab I', 'Lab', 'H'),
-	'P443': new Course ('Integrated Physics Lab I', 'Lab', 'I')
+	'P444': new Course ('Integrated Physics Lab II', 'Lab', 'H'),
+	'P445': new Course ('Integrated Physics Lab II', 'Lab', 'I')
 };
 
 for (let course in courses) {
