@@ -31,13 +31,15 @@ let courses = {
 	// always use A1, A2, ... for degenerates of slot A
 
 	/* Biology */
-	'B306': new Course('Evolutionary Biology', 'Evo Bio (LH2)', 'C'),
-	'B351': new Course('Principles of Drug Design', 'Drug Design (B2)', 'D'),
+	'B201': new Course('Microbiology', 'Micro Bio (LH2)', 'C'),
+	'B202': new Course('Biochemistry', 'Biochem (LH3)', 'E'),
+	'B303': new Course('Ecology', 'Ecology (LH5)', 'J'),
+	'B403': new Course('Bioinformatics', 'Bioinfo (LH2)', 'E'),
 
 	/* Chemistry */
-	'C554': new Course('Crystallography', 'Crystal (C2)', 'D'),
-	'C402': new Course('Chemical Rate Processes', 'Kinetics (C6)', 'B'),
-	'C568': new Course('Advanced Fluorescence Spectroscopy', 'Fluoro (C6)', 'E'),
+	'C207': new Course('Mathematical Methods for Chemists', 'MM Chem (LH4)', 'B'),
+	'C552': new Course('Solid State Chemistry', 'SSC (C2)', 'C'),
+	'C560': new Course('Chemistry of Nanomaterials', 'Nano (C1)', 'F'),
 
 	/* Computer Science */
 	
@@ -46,7 +48,6 @@ let courses = {
 	
 
 	/* Mathematics */
-	'M206': new Course('Probability Theory', 'Prob (M1)', 'A'),
 
 	/* Physics */
 	'P452': new Course('Computational Physics', 'Comp Phy (P107)', 'J'),
