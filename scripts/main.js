@@ -101,18 +101,18 @@ function generatePdf() {
 
 	let timetable = document.querySelector('table');
 	let jsonTable = doc.autoTableHtmlToJson(timetable);
-	doc.text('Timetable for Fall Semester 2021', 300, 25);
+	doc.text('Timetable for Fall Semester 2022', 310, 25);
 	doc.autoTable(jsonTable.columns, jsonTable.data, {
 		styles: {cellPadding: 10,
-				 fontSize: 12,
+				 fontSize: 11,
 				 lineColor: 10,
-				 lineWidth: .5,
+				 lineWidth: .6,
 				 overflow: 'linebreak',
 				 halign: 'center',
 				 valign: 'middle'},
 		theme: 'plain'});
 
-	doc.save("tt_fall_2021.pdf");
+	doc.save("tt_fall_2022.pdf");
 }
 
 let generateCodeButton = document.querySelector('button#gen-code');
