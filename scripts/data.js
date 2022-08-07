@@ -38,8 +38,15 @@ let courses = {
 
 	/* Chemistry */
 	'C207': new Course('Mathematical Methods for Chemists', 'MM Chem (LH4)', 'B'),
+	'C301': new Course('Physical Organic Chemistry', 'POC (C6)', 'B'),
+	'C302': new Course('Molecular Spectroscopy and Group Theory', 'Mol Spec (C6)', 'F'),
+	'C307': new Course('Thermodynamics and Electrochemistry', 'Thermo & Electro (LH2)', 'C'),
+	'C341': new Course('Organic Chemistry Lab I', 'OC Lab I', 'GHI'),
+	'C342': new Course('Inorganic Chemistry Lab I', 'Inorg Lab I', 'GHI'),
 	'C552': new Course('Solid State Chemistry', 'SSC (C2)', 'C'),
 	'C560': new Course('Chemistry of Nanomaterials', 'Nano (C1)', 'F'),
+	
+	'C552': new Course('Solid State Chemistry', 'SSC (C2)', 'C'),
 
 	/* Computer Science */
 	
@@ -50,11 +57,7 @@ let courses = {
 	/* Mathematics */
 
 	/* Physics */
-	'P452': new Course('Computational Physics', 'Comp Phy (P107)', 'J'),
-	'P456': new Course('Nonlinear Optics & Lasers', 'Laser (P127)', 'K'),
-	'P443': new Course ('Integrated Physics Lab I', 'Lab', 'G'),
-	'P444': new Course ('Integrated Physics Lab II', 'Lab', 'H'),
-	'P445': new Course ('Integrated Physics Lab II', 'Lab', 'I')
+	'P466': new Course('Quantum and Nano Electronics', 'Quant and Nano (P126)', 'A'),
 };
 
 for (let course in courses) {
