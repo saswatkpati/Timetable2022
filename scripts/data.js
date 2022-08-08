@@ -44,9 +44,8 @@ let courses = {
 	'C341': new Course('Organic Chemistry Lab I', 'OC Lab I', 'GHI'),
 	'C342': new Course('Inorganic Chemistry Lab I', 'Inorg Lab I', 'GHI'),
 	'C552': new Course('Solid State Chemistry', 'SSC (C2)', 'C'),
+	'C559': new Course('Supramolecular Chemistry', 'Supra (C2)', 'B'),
 	'C560': new Course('Chemistry of Nanomaterials', 'Nano (C1)', 'F'),
-	
-	'C552': new Course('Solid State Chemistry', 'SSC (C2)', 'C'),
 
 	/* Computer Science */
 	
